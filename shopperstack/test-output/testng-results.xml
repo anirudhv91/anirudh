@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[connect to database]]>
+    </line>
+    <line>
+      <![CDATA[before test]]>
+    </line>
+    <line>
+      <![CDATA[Before class]]>
+    </line>
+    <line>
+      <![CDATA[login]]>
+    </line>
+    <line>
+      <![CDATA[log out]]>
+    </line>
+    <line>
+      <![CDATA[aftertest]]>
+    </line>
+    <line>
+      <![CDATA[close connection to database]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-12-24T12:51:44 IST" name="Default suite" finished-at="2023-12-24T12:52:15 IST" duration-ms="31369">
+    <groups>
+    </groups>
+    <test started-at="2023-12-24T12:51:44 IST" name="Default test" finished-at="2023-12-24T12:52:15 IST" duration-ms="31369">
+      <class name="testscripts.Registertest">
+        <test-method is-config="true" signature="beforesuite()[pri:0, instance:testscripts.Registertest@13c9d689]" started-at="2023-12-24T12:51:44 IST" name="beforesuite" finished-at="2023-12-24T12:51:44 IST" duration-ms="24" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[connect to database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforesuite -->
+        <test-method is-config="true" signature="beforetest()[pri:0, instance:testscripts.Registertest@13c9d689]" started-at="2023-12-24T12:51:44 IST" name="beforetest" finished-at="2023-12-24T12:51:44 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[before test]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforetest -->
+        <test-method is-config="true" signature="beforeclass()[pri:0, instance:testscripts.Registertest@13c9d689]" started-at="2023-12-24T12:51:44 IST" name="beforeclass" finished-at="2023-12-24T12:51:51 IST" duration-ms="7333" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[Before class]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforeclass -->
+        <test-method is-config="true" signature="beforemethod()[pri:0, instance:testscripts.Registertest@13c9d689]" started-at="2023-12-24T12:51:51 IST" name="beforemethod" finished-at="2023-12-24T12:51:53 IST" duration-ms="2349" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- beforemethod -->
+        <test-method signature="register()[pri:0, instance:testscripts.Registertest@13c9d689]" started-at="2023-12-24T12:51:53 IST" name="register" finished-at="2023-12-24T12:52:13 IST" duration-ms="19528" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- register -->
+        <test-method is-config="true" signature="aftermethod()[pri:0, instance:testscripts.Registertest@13c9d689]" started-at="2023-12-24T12:52:13 IST" name="aftermethod" finished-at="2023-12-24T12:52:15 IST" duration-ms="1684" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[log out]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftermethod -->
+        <test-method is-config="true" signature="afterclass()[pri:0, instance:testscripts.Registertest@13c9d689]" started-at="2023-12-24T12:52:15 IST" name="afterclass" finished-at="2023-12-24T12:52:15 IST" duration-ms="386" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterclass -->
+        <test-method is-config="true" signature="aftertest()[pri:0, instance:testscripts.Registertest@13c9d689]" started-at="2023-12-24T12:52:15 IST" name="aftertest" finished-at="2023-12-24T12:52:15 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[aftertest]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+        <test-method is-config="true" signature="aftersuite()[pri:0, instance:testscripts.Registertest@13c9d689]" started-at="2023-12-24T12:52:15 IST" name="aftersuite" finished-at="2023-12-24T12:52:15 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[close connection to database]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- aftersuite -->
+      </class> <!-- testscripts.Registertest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
